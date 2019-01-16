@@ -1,0 +1,67 @@
+#chat-box {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+#chat-box #chat-close-btn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#chat-box .chat-messages {
+    border: 1px solid #c63d01;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+#chat-box .chat-post {
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 75px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+#chat-box .chat-user-name {
+    width: 100%;
+    background: #c63d01;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+#chat-box .chat-messages .msg-from {
+    color: blue;
+    margin-bottom: 10px;
+}
+#chat-box .chat-messages .msg-to {
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.from-msg {
+    color: #c63d01;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    margin: 10px 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.to-msg {
+    color: #666;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 10px 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

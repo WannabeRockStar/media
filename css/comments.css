@@ -1,0 +1,85 @@
+.comment-form {
+	margin-top: 10px;
+}
+.comment-form .comment-field {
+	width: 100%;
+	padding: 5px 10px;
+	height: 45px;
+	resize: none;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.comment-box {
+	display: none;
+	border-bottom: 2px solid #ccc;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.comment {
+	width: 100%;
+	margin-bottom: 3px;
+}
+.comment-box .comment-auth {
+	font-size: 17px;
+	color: brown;
+	margin-right: 5px;
+	font-weight: 700;
+}
+.comment-box .comment-txt {
+	font-size: 14px;
+	color: #666;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+}
+.error {
+	background: red;
+	color: white;
+	padding: 10px;
+	width: 75%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.reg-error {
+	color: red;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+/****************** USERS STYLESHEET ********************/
+
+.user-table-title {
+	color: #444;
+	margin-bottom: 10px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #f4f4f4;
+	text-align: left;
+	margin-bottom: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+table th {
+	background: #ccc;
+	padding: 5px;
+}
+table td {
+	width: 20%;
+	height: 30px;
+	padding: 5px;
+	font-weight: 700;
+	//border: 1px solid #ccc;
+}
+table td .friend-btn {
+	text-decoration: none;
+	color: #666;
+	border: 1px solid #ccc;
+	padding: 5px 15px;
+	background: #fff;
+	font-weight: 400;
+}

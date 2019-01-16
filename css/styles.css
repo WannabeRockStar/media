@@ -1,0 +1,217 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+}
+.clear {
+	clear: both;
+}
+main {
+	margin: 40px 0;
+	position: relative;
+}
+
+/**************** HEADER STYLESHEET ******************/
+
+.header-layer {
+	height: 100px;
+}
+.main-header {
+	padding: 20px 0;
+	background: #c63d01;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 12121;
+}
+.main-header .logo {
+	float: left;
+}
+.main-header .logo .logo-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-header .navbar {
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+}
+.main-header .navbar .nav-item {
+	display: inline-block;
+	padding: 0 15px;
+}
+.main-header .navbar .nav-link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+/**************** LOGIN/SIGNUP STYLESHEET ******************/
+
+.full-page {
+	height: calc(100vh - 259px);
+}
+.reg-form {
+	width: 80%;
+	margin: 30px 0;
+}
+.reg-form .reg-field {
+	padding: 10px;
+	width: 100%;
+	border: 2px solid #aaa;
+	outline: none;
+	margin-bottom: 10px;
+	transition-duration: .3s;
+}
+.reg-form .reg-btn, .share-btn {
+	padding: 10px 30px;
+	background: #c63d01;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.reg-form .reg-field:focus {
+	background: #eee;
+}
+.share {
+	width: 75%;
+}
+.share .post-txt {
+	width: 100%;
+	height: 150px;
+	font-family: "Roboto", sans-serif;
+	padding: 20px;
+	box-sizing: border-box;
+	resize: none;
+	border: 1px solid #ccc;
+	outline: none;
+}
+/**************** CONTENT STYLESHEET ******************/
+
+.content {
+	margin-top: 30px;
+	width: 75%;
+}
+
+.post {
+	border: 1px solid #ddd;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 1px 1px #ccc;
+	position: relative;
+}
+.post .post-auth {
+	margin-bottom: 10px;
+	color: #443229;
+}
+.post .post-time {
+	background: #eee;
+	padding: 5px;
+	color: #777;
+	display: block;
+	margin-bottom: 20px;
+}
+.post .icons {
+	border-bottom: 2px solid #ccc;
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.post .post-text {
+	margin-bottom: 10px;
+	color: #666;
+	overflow-wrap: break-word;
+ 	word-wrap: break-word;
+}
+.post .btnz {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: 700;
+}
+.post .like-btn, .post .comment-btn {
+	color: #c63d01;
+	cursor: pointer;
+}
+.post .delete-post-btn {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+.post .delete-post-link {
+	color: #443229;
+}
+
+/**************** FRIENDS STYLESHEET ******************/
+
+.friends {
+    position: fixed;
+    right: 471px;
+    top: 110px;
+    width: 226px;
+    height: 700px;
+    overflow-y: scroll;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 1px 1px #ccc;
+}
+.friends .friend-list {
+	list-style-type: none;
+	padding: 10px;
+}
+.friends .friend-list .fr-item {
+	box-sizing: border-box
+}
+.friends .friend-list .fr-link {
+	text-decoration: none;
+	color: #c63d01;
+	font-weight: 700;
+	display: block;
+	width: 100%;
+	height: 25px;
+	padding: 5px;
+	overflow: hidden;
+	line-height: 25px;
+}
+.friends .friend-list .fr-link:hover {
+	background: #eee;
+}
+.friends .friend-list .user-icon {
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: #ccc;
+	border-radius: 15px;
+	margin-right: 5px;
+}
+.friends .friend-list-btn {
+	text-decoration: none;
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	color: #666;
+}
+.friends .friend-list-btn:hover {
+	background: #f7f7f7;
+}
+
+/**************** FOOTER STYLESHEET ******************/
+
+footer {
+	padding: 30px 0;
+	background: #c63d01;
+	color: #fff;
+}
